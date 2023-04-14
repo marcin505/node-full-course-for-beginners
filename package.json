@@ -4,8 +4,8 @@
   "description": "node.js training https://www.youtube.com/watch?v=f2EqECiTBL8&ab_channel=DaveGray",
   "main": "math.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node 04TUT/index",
+    "dev": "nodemon 04TUT/index"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,11 @@
   "homepage": "https://github.com/marcin505/node-full-course-for-beginners#readme",
   "dependencies": {
     "@types/node": "^18.15.11",
-    "install": "^0.13.0"
+    "date-fns": "^2.29.3",
+    "install": "^0.13.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
