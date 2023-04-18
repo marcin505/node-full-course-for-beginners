@@ -22,6 +22,7 @@
   "homepage": "https://github.com/marcin505/node-full-course-for-beginners#readme",
   "dependencies": {
     "@types/node": "^18.15.11",
+    "cors": "^2.8.5",
     "date-fns": "^2.29.3",
     "express": "^4.18.2",
     "install": "^0.13.0",

@@ -1,2 +1,11 @@
 20230417	16:09:11	efee6dec-0c39-47a0-9a3f-943776744b0e	TypeError : fsPromises.readFil is not a function
 20230417	16:13:24	671ea3da-8974-435e-8100-e707a7bda2f8	TypeError : fsPromises.readFil is not a function
+20230418	10:50:19	c5b71d55-6340-4aa9-a90f-c30352e8b86c	Error: Not allowed by CORS
+20230418	10:51:13	779a63a8-07da-4a63-acf2-e4a5832cd512	Error: Not allowed by CORS
+20230418	10:51:16	46b55b5d-f4dd-4049-a7cc-1039829e3b01	Error: Not allowed by CORS
+20230418	10:57:56	a6a7f324-933a-4d63-a55c-1317a92e3f9f	Error: Not allowed by CORS
+20230418	10:58:01	82311e6c-7755-457d-bff7-c6708863623a	Error: Not allowed by CORS
+20230418	11:01:51	45508849-433f-45ff-82dc-54a8c2ae9a04	Error: Can't set headers after they are sent.
+20230418	11:05:15	960cb1ae-94c6-46ec-9e8f-6f1102c8f3a2	Error: Not allowed by CORS
+20230418	11:06:21	96ae74ab-711d-449e-b290-d81b61a79562	Error: Not allowed by CORS
+20230418	11:06:21	112e1217-e5da-407d-84a0-bd8d4b6a7942	Error: Not allowed by CORS
