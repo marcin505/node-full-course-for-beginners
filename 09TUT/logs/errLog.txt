@@ -1,0 +1,20 @@
+20230417	16:09:11	efee6dec-0c39-47a0-9a3f-943776744b0e	TypeError : fsPromises.readFil is not a function
+20230417	16:13:24	671ea3da-8974-435e-8100-e707a7bda2f8	TypeError : fsPromises.readFil is not a function
+20230418	10:50:19	c5b71d55-6340-4aa9-a90f-c30352e8b86c	Error: Not allowed by CORS
+20230418	10:51:13	779a63a8-07da-4a63-acf2-e4a5832cd512	Error: Not allowed by CORS
+20230418	10:51:16	46b55b5d-f4dd-4049-a7cc-1039829e3b01	Error: Not allowed by CORS
+20230418	10:57:56	a6a7f324-933a-4d63-a55c-1317a92e3f9f	Error: Not allowed by CORS
+20230418	10:58:01	82311e6c-7755-457d-bff7-c6708863623a	Error: Not allowed by CORS
+20230418	11:01:51	45508849-433f-45ff-82dc-54a8c2ae9a04	Error: Can't set headers after they are sent.
+20230418	11:05:15	960cb1ae-94c6-46ec-9e8f-6f1102c8f3a2	Error: Not allowed by CORS
+20230418	11:06:21	96ae74ab-711d-449e-b290-d81b61a79562	Error: Not allowed by CORS
+20230418	11:06:21	112e1217-e5da-407d-84a0-bd8d4b6a7942	Error: Not allowed by CORS
+20230418	13:40:04	8620ac9b-4a5c-4ca0-baef-f4bca12538a5	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\new-page.html'
+20230418	13:40:07	d119b278-f498-4760-a1b2-cd13aa040baa	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\new-page.html'
+20230418	13:40:11	8f64acb2-96a5-4bc6-878c-e1e0f25da73c	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\index.html'
+20230418	14:27:35	9260f0cf-3597-4112-a54f-17925f5e4394	Error: Not allowed by CORS
+20230418	15:15:47	5149fedb-f25c-4928-80c4-e338ce832621	ReferenceError: whitelist is not defined
+20230418	15:42:36	cecc0dc0-6a6c-445b-be45-a0454f3ef166	SyntaxError: Unexpected token i in JSON at position 1
+20230418	16:24:16	bd255508-a9ab-479a-8dd9-dd24bcdee787	SyntaxError: Unexpected token o in JSON at position 1
+20230418	16:24:39	121bc86c-bc72-4e09-9c97-6ef7c12d600b	SyntaxError: Unexpected token o in JSON at position 1
+20230418	16:25:26	a2104c42-a823-4bc1-ada0-f72437b6bd79	SyntaxError: Unexpected token o in JSON at position 1
