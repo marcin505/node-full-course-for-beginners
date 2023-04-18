@@ -1,0 +1,6 @@
+20230418	09:52:01	e927309e-8c89-49eb-8ef6-968852b984d0	GET	undefined	/
+20230418	09:52:01	a954f8c8-f1df-40c5-944f-60127039617a	GET	undefined	/css/style.css
+20230418	09:52:20	7bdf910c-7caa-41d2-be01-7ed5f0d4bcfc	GET	undefined	/hello
+20230418	09:52:33	51bc41a9-74c5-4850-b8b9-f32d3ba0807f	GET	undefined	/new-page.html
+20230418	09:52:33	2cecd8a7-f451-4317-8b83-f42b3c13ae62	GET	undefined	/css/style.css
+20230418	09:52:33	5b08db0f-c5b1-472f-afe9-ffce94516097	GET	undefined	/img/img1.jpg

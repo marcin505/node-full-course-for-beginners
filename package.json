@@ -4,8 +4,8 @@
   "description": "node.js training https://www.youtube.com/watch?v=f2EqECiTBL8&ab_channel=DaveGray",
   "main": "math.js",
   "scripts": {
-    "start": "node 06TUT/server",
-    "dev": "nodemon 06TUT/server"
+    "start": "node 07TUT/server",
+    "dev": "nodemon 07TUT/server"
   },
   "repository": {
     "type": "git",
