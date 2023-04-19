@@ -1,0 +1,34 @@
+[
+  {
+    "username": "walt1",
+    "password": "$2b$10$33Q9jtAoaXC4aUX9Bjihxum2BHG.ENB6JyoCvPjnuXpITtUd8x8/y"
+  },
+  {
+    "username": "walt2",
+    "password": "$2b$10$cvfmz./teMWDccIMChAxZ.HqgL3eoQGYTm1z9lGy5iRf8D7NNargC"
+  },
+  {
+    "username": "Jim",
+    "password": "$2b$10$14W2e2T0ytFLBlYItYktp.vHmSYaXgE6k8CznWb3NmLWREsREFoJG"
+  },
+  {
+    "username": "Lincoln",
+    "password": "$2b$10$RrBWfSCYQegUrskZtZR3Je0950dmeWyvxH7rZKh4eEEsF8M6uSzIS"
+  },
+  {
+    "username": "SPiderman",
+    "password": "$2b$10$Md1zUhiXmEmz1W3z8RESY.U4rfawJJX2ENS3y3Atu5TTpHsp25itW"
+  },
+  {
+    "username": "Darth",
+    "password": "$2b$10$f65TP0zFKFwqA/dOxdpAE..1OLUWkGsLfdGOb749BFDZpxS8DXoka"
+  },
+  {
+    "username": "Xman",
+    "password": "$2b$10$GPAzVwpZO06DcNBT8JlXC.xhtl2viJ/3rJFFwzJKBAYKjP98OqKmO"
+  },
+  {
+    "username": "Han Solo",
+    "password": "$2b$10$nQCcZDYvUhvcajFDZp08ROwC6xiwEgq4y6cnSM7v5Ot8XUXv3VEjm"
+  }
+]
