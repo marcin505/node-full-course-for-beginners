@@ -20,6 +20,7 @@ const data = {
 
 // work
 const getAllEmployees = (req, res) => {
+  console.log('cookies', res.cookies);
   res.json(data.employees);
 };
 

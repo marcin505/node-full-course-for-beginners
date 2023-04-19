@@ -1,7 +1,7 @@
 // Cross Origin Resource Sharing
 const whitelist = [
   'https://medium.com',
-  'http://127.0.0.1:3000',
+  // 'http://127.0.0.1:3000',
   'http://localhost:3500',
 ];
 

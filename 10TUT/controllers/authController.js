@@ -34,7 +34,7 @@ const handleLogin = async (req, res) => {
     const accessToken = jwt.sign(
       { username: foundUser.username },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '30s' }
+      { expiresIn: '45s' }
     );
 
     const refreshToken = jwt.sign(
@@ -43,7 +43,7 @@ const handleLogin = async (req, res) => {
       { expiresIn: '1d' }
     );
 
-    // saving
+    // saving refresh token
     const newUsers = dbUsers.map((user) => ({
       ...user,
       ...{
@@ -56,10 +56,13 @@ const handleLogin = async (req, res) => {
 
     await fsPromises.writeFile(
       path.join(__dirname, '..', 'model', 'users.json'),
-      JSON.stringify(newUsers)
+      JSON.stringify(newUsers, null, 2)
     );
+
     res.cookie('jwt', refreshToken, {
       httpOnly: true,
+      sameSite: 'None',
+      secure: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.json({ accessToken });

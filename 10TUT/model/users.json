@@ -21,7 +21,9 @@
   },
   {
     "username": "Darth",
-    "password": "$2b$10$f65TP0zFKFwqA/dOxdpAE..1OLUWkGsLfdGOb749BFDZpxS8DXoka"
+    "password": "$2b$10$f65TP0zFKFwqA/dOxdpAE..1OLUWkGsLfdGOb749BFDZpxS8DXoka",
+    "refreshToken": "",
+    "accessToken": ""
   },
   {
     "username": "Xman",
@@ -29,6 +31,8 @@
   },
   {
     "username": "Han Solo",
-    "password": "$2b$10$nQCcZDYvUhvcajFDZp08ROwC6xiwEgq4y6cnSM7v5Ot8XUXv3VEjm"
+    "password": "$2b$10$nQCcZDYvUhvcajFDZp08ROwC6xiwEgq4y6cnSM7v5Ot8XUXv3VEjm",
+    "refreshToken": "",
+    "accessToken": ""
   }
 ]
