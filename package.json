@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/marcin505/node-full-course-for-beginners#readme",
   "dependencies": {
-    "@types/node": "^18.15.11",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -33,6 +32,10 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/node": "^18.15.12",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
     "nodemon": "^2.0.22"
   }
 }

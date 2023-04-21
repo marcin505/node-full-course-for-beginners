@@ -1,0 +1,90 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Auth",
+    "dateExported": "2023-04-21T12:48:55.016Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "69cced2c-ceff-4f98-bd7d-676591427851",
+            "colId": "98898fe1-f459-4c37-bf6a-73f033751d88",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3500/auth",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-20T13:48:46.663Z",
+            "modified": "2023-04-21T10:55:02.447Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"username\": \"Darth\", \"password\":\"kurde\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "67f9c704-a636-41dc-82e0-8e5e02430837",
+            "colId": "98898fe1-f459-4c37-bf6a-73f033751d88",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://localhost:3500/logout",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-04-21T08:35:04.105Z",
+            "modified": "2023-04-21T09:08:55.607Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2be8b730-db19-49a4-b857-6a0b5bec87d0",
+            "colId": "98898fe1-f459-4c37-bf6a-73f033751d88",
+            "containerId": "",
+            "name": "refresh",
+            "url": "http://localhost:3500/refresh",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-20T13:51:39.530Z",
+            "modified": "2023-04-20T13:52:00.580Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "05ae14f2-0886-4d07-b604-bfd9b8e48226",
+            "colId": "98898fe1-f459-4c37-bf6a-73f033751d88",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3500/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-19T07:15:26.882Z",
+            "modified": "2023-04-21T08:27:36.456Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"username\": \"Fox\", \"password\": \"kurde\"}",
+                "form": []
+            },
+            "auth": {
+                "type": "none"
+            },
+            "tests": []
+        },
+        {
+            "_id": "ede155cb-6688-4f57-bc46-2b8a31e4a8c0",
+            "colId": "98898fe1-f459-4c37-bf6a-73f033751d88",
+            "containerId": "",
+            "name": "logout",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-21T08:34:52.770Z",
+            "modified": "2023-04-21T08:34:52.771Z",
+            "headers": []
+        }
+    ]
+}

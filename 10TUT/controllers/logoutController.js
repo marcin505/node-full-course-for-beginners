@@ -10,6 +10,7 @@ const handleLogout = async (req, res) => {
   const refreshToken = cookies.jwt;
 
   const dbUsers = require('../model/users.json');
+  console.log('refreshToken', refreshToken);
   const foundUser = dbUsers.find((user) => user.refreshToken === refreshToken);
   if (!foundUser) {
     res.clearCookie('jwt', { httpOnly: true });

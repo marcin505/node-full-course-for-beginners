@@ -31,10 +31,12 @@ const handleLogin = async (req, res) => {
   //evaluate password
   const match = await bcrypt.compare(password, foundUser.password);
   if (match) {
+    const roles = Object.values(foundUser.roles);
+    //create JWT
     const accessToken = jwt.sign(
-      { username: foundUser.username },
+      { userInfo: { username: foundUser.username, roles } },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '45s' }
+      { expiresIn: '60s' }
     );
 
     const refreshToken = jwt.sign(
@@ -43,7 +45,7 @@ const handleLogin = async (req, res) => {
       { expiresIn: '1d' }
     );
 
-    // saving refresh token
+    // saving refresh token with current user
     const newUsers = dbUsers.map((user) => ({
       ...user,
       ...{
@@ -62,7 +64,7 @@ const handleLogin = async (req, res) => {
     res.cookie('jwt', refreshToken, {
       httpOnly: true,
       sameSite: 'None',
-      secure: true,
+      secure: true, // comment this out to create refreshToken in thunderclient
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.json({ accessToken });

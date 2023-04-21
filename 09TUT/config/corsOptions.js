@@ -1,11 +1,11 @@
 // Cross Origin Resource Sharing
-const whitelist = ['https://medium.com', 'http://127.0.0.1:3000'];
+const allowedOrigins = ['https://medium.com', 'http://127.0.0.1:3000'];
 
 const corsOptions = {
   origin: (origin, callback) => {
     console.log({ origin });
     // callback(new Error('Not allowed by CORS kurde'));
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));

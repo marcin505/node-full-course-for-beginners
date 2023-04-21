@@ -1,17 +1,10 @@
-// fetch("http://localhost:3500/auth", {
-//       headers: {
-// "Content-Type": "application/json",
-// },
-// method: 'POST',
-//     body: JSON.stringify({username: "Darth", password: "kurde"}),
-// })
-
+// fetch("http://localhost:3500/refresh", {method: 'GET'});
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 const handleRefreshToken = (req, res) => {
   const { cookies } = req;
-  console.log('jwt', cookies.jwt);
+  console.log('jwt', cookies);
   if (!cookies?.jwt) return res.sendStatus(401);
   const refreshToken = cookies.jwt;
 
@@ -26,8 +19,9 @@ const handleRefreshToken = (req, res) => {
   jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, decoded) => {
     if (err || foundUser.username !== decoded.username)
       return res.sendStatus(403);
+    const roles = Object.values(foundUser.roles);
     const accessToken = jwt.sign(
-      { username: decoded.username },
+      { userInfo: { username: foundUser.username, roles } },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: '30s' }
     );
