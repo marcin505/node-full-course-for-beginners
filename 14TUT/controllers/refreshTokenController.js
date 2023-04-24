@@ -1,14 +1,18 @@
-// fetch("http://localhost:3500/refresh", {method: 'GET'});
+const User = require('../model/User');
 const jwt = require('jsonwebtoken');
 
-const handleRefreshToken = (req, res) => {
+const handleRefreshToken = async (req, res) => {
   const { cookies } = req;
-  console.log('jwt', cookies);
   if (!cookies?.jwt) return res.sendStatus(401);
+  // console.log('jwt', cookies);
   const refreshToken = cookies.jwt;
+  console.log({ refreshToken });
 
-  const dbUsers = require('../model/users.json');
-  const foundUser = dbUsers.find((user) => user.refreshToken === refreshToken);
+  // const dbUsers = require('../model/users.json');
+
+  // const foundUser = dbUsers.find((user) => user.refreshToken === refreshToken);
+  const foundUser = await User.findOne({ refreshToken }).exec();
+
   if (!foundUser) {
     return res.sendStatus(403); // Forbidden
   }

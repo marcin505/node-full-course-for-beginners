@@ -1,17 +1,7 @@
+const User = require('../model/User');
 const bcrypt = require('bcrypt');
 
-// fetch("http://localhost:3500/auth", {
-//       headers: {
-// "Content-Type": "application/json",
-// },
-// method: 'POST',
-//     body: JSON.stringify({username: "Darth", password: "kurde"}),
-// })
-
 const jwt = require('jsonwebtoken');
-
-const fsPromises = require('fs').promises;
-const path = require('path');
 
 const handleLogin = async (req, res) => {
   const { username, password } = req.body;
@@ -22,8 +12,9 @@ const handleLogin = async (req, res) => {
       .json({ message: 'User name and password are required' });
   }
 
-  const dbUsers = require('../model/users.json');
-  const foundUser = dbUsers.find((user) => user.username === username);
+  // const dbUsers = require('../model/users.json');
+  const foundUser = await User.findOne({ username }).exec();
+
   if (!foundUser) {
     return res.sendStatus(401); // Unathorized
   }
@@ -46,25 +37,13 @@ const handleLogin = async (req, res) => {
     );
 
     // saving refresh token with current user
-    const newUsers = dbUsers.map((user) => ({
-      ...user,
-      ...{
-        ...(user.username === foundUser.username && {
-          refreshToken,
-          accessToken, // accessToken shouldn't be exposed in the db, it's here just for the data tracking sake
-        }),
-      },
-    }));
-
-    await fsPromises.writeFile(
-      path.join(__dirname, '..', 'model', 'users.json'),
-      JSON.stringify(newUsers, null, 2)
-    );
+    foundUser.refreshToken = refreshToken;
+    const result = await foundUser.save();
 
     res.cookie('jwt', refreshToken, {
       httpOnly: true,
       sameSite: 'None',
-      secure: true, // comment this out to create refreshToken in thunderclient
+      // secure: true, // comment this out to create refreshToken in thunderclient
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.json({ accessToken });

@@ -37,3 +37,4 @@
 20230421	15:15:08	352ccbe6-87f2-4259-9f62-d4eaeab51443	TypeError: rolesArray.includes is not a function
 20230421	15:15:08	ca8117b5-6fb8-4ab2-ab12-3eb68bd055a4	TypeError: rolesArray.includes is not a function
 20230421	15:15:13	35bd1ea4-4b76-4d3e-aec9-cf299eb6729f	TypeError: rolesArray.includes is not a function
+20230424	15:21:52	d6b9aca5-b828-4372-996d-bc243ab8fc65	SyntaxError: Unexpected token f in JSON at position 14

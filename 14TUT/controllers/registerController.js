@@ -33,17 +33,21 @@ const handleRegister = async (req, res) => {
     const hashedPwd = await bcrypt.hash(password, 10);
     //create store the new user
 
-    const result = await User.create({ username, password: hashedPwd });
+    const userToSave = { username, password: hashedPwd };
+    const result = await User.create(userToSave);
     const newUser = new User();
     console.log(result);
 
-    const newUsers = [...dbUsers, newUser];
-    // console.log(newUsers);
+    const newUsers = [
+      ...dbUsers,
+      { ...userToSave, roles: { User: 2001 } },
+      // { ...userToSave, roles: { User: 2001, Editor: 1984, Admin: 5150 } },
+    ];
 
-    // await fsPromises.writeFile(
-    //   path.join(__dirname, '..', 'model', 'users.json'),
-    //   JSON.stringify(newUsers, null, 2)
-    // );
+    await fsPromises.writeFile(
+      path.join(__dirname, '..', 'model', 'users.json'),
+      JSON.stringify(newUsers, null, 2)
+    );
 
     res.status(201).json({ success: `New user - ${username} created` });
   } catch (err) {

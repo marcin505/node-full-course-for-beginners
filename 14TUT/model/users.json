@@ -1,17 +1,9 @@
 [
   {
-    "username": "walt1",
-    "password": "$2b$10$33Q9jtAoaXC4aUX9Bjihxum2BHG.ENB6JyoCvPjnuXpITtUd8x8/y"
-  },
-  {
-    "username": "walt2",
-    "password": "$2b$10$cvfmz./teMWDccIMChAxZ.HqgL3eoQGYTm1z9lGy5iRf8D7NNargC"
-  },
-  {
     "username": "Darth",
-    "password": "$2b$10$f65TP0zFKFwqA/dOxdpAE..1OLUWkGsLfdGOb749BFDZpxS8DXoka",
-    "refreshToken": "",
-    "accessToken": "",
+    "password": "$2b$10$jMgM8XZyD5YDmYccxioyIuwNahDoLg/jlCbZnM4VLdNQVcZIUqrrC",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhcnRoIiwiaWF0IjoxNjgyMzI3NTA3LCJleHAiOjE2ODI0MTM5MDd9.SBovvrpP21BFP8sbpR0sRtkdEn3loHcuyiMgE1Sjyuw",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJ1c2VybmFtZSI6IkRhcnRoIiwicm9sZXMiOlsyMDAxLDE5ODQsNTE1MF19LCJpYXQiOjE2ODIzMjc1MDcsImV4cCI6MTY4MjMyNzU2N30.6GUnxe0jg_1x0U4-N1d_8tXTgDI9owAlHICZVd99yBY",
     "roles": {
       "User": 2001,
       "Editor": 1984,
@@ -19,10 +11,8 @@
     }
   },
   {
-    "username": "Han Solo",
-    "password": "$2b$10$nQCcZDYvUhvcajFDZp08ROwC6xiwEgq4y6cnSM7v5Ot8XUXv3VEjm",
-    "refreshToken": "",
-    "accessToken": "",
+    "username": "Marcus",
+    "password": "$2b$10$3LtSG4EcZQywL/PpiiPzWu2YW6e26YRzygn8TFlXLPNdWNW8S5rg.",
     "roles": {
       "User": 2001,
       "Editor": 1984
@@ -30,26 +20,16 @@
   },
   {
     "username": "Lincoln",
-    "password": "$2b$10$GPAzVwpZO06DcNBT8JlXC.xhtl2viJ/3rJFFwzJKBAYKjP98OqKmO",
+    "password": "$2b$10$ClUDZqPUm.AnpkGTAxqKJeclAlQnzNEE8uEEEaVMIXXPY4v5/FrbO",
     "roles": {
       "User": 2001
     },
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxpbmNvbG4iLCJpYXQiOjE2ODIzMTgwMzksImV4cCI6MTY4MjQwNDQzOX0.bFGHm4FEivswUfEzJXpNPXIrGJinYAaiC9E2in2fynw",
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJ1c2VybmFtZSI6IkxpbmNvbG4iLCJyb2xlcyI6WzIwMDFdfSwiaWF0IjoxNjgyMzE4MDM5LCJleHAiOjE2ODIzMTgwOTl9.W28-bb9NbmWMFU-dlY53QjioH1GC1zvX0fAMNcqVjFk"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxpbmNvbG4iLCJpYXQiOjE2ODIzMjc1MzYsImV4cCI6MTY4MjQxMzkzNn0.Wft160ksDaH2RPy0D_Nr7OSMWhy6w8jIv-8lUI-Vjbg",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJ1c2VybmFtZSI6IkxpbmNvbG4iLCJyb2xlcyI6WzIwMDFdfSwiaWF0IjoxNjgyMzI3NTM2LCJleHAiOjE2ODIzMjc1OTZ9.J9URc3tAtVE4vAlh-2wY77raWl4FXRhwRDWQWQa2qxU"
   },
   {
-    "username": "Fox",
-    "password": "$2b$10$NfOp4XNRqhBEt/eAE3H4m.bQwCQ1NUIl70uezLL1uNha/HLjynJYW",
-    "roles": {
-      "User": 2001,
-      "Editor": 1984
-    },
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkZveCIsImlhdCI6MTY4MjA2NjE3MiwiZXhwIjoxNjgyMTUyNTcyfQ.Ev8rFBN2noOBS9UVJll6NeLJPiXIw62npesR5ySSDI0",
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJ1c2VybmFtZSI6IkZveCIsInJvbGVzIjpbMjAwMSwxOTg0XX0sImlhdCI6MTY4MjA2NjE3MiwiZXhwIjoxNjgyMDY2NTMyfQ.nIetEtk_fwSzcoehBEowygvhaI81t0ObDipJiWT5kHk"
-  },
-  {
-    "username": "Sonic",
-    "password": "$2b$10$nzkWCGYj1c79/ZXgMNasV.fFUoEA33aKt7PMEASsa9XXtwg0DyGlm",
+    "username": "Malcolm",
+    "password": "$2b$10$BT8dBX78j.OEw7pwpBkcfecgEhwOAzL/UtnplxUwdtMl8mtME/hMm",
     "roles": {
       "User": 2001
     }
