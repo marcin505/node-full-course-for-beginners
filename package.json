@@ -20,6 +20,10 @@
     "url": "https://github.com/marcin505/node-full-course-for-beginners/issues"
   },
   "homepage": "https://github.com/marcin505/node-full-course-for-beginners#readme",
+  "engines": {
+    "npm": ">=6.0.0 <7.0.0",
+    "node": "14.17.5"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
