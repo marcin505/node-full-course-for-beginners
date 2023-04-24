@@ -1,0 +1,39 @@
+20230417	16:09:11	efee6dec-0c39-47a0-9a3f-943776744b0e	TypeError : fsPromises.readFil is not a function
+20230417	16:13:24	671ea3da-8974-435e-8100-e707a7bda2f8	TypeError : fsPromises.readFil is not a function
+20230418	10:50:19	c5b71d55-6340-4aa9-a90f-c30352e8b86c	Error: Not allowed by CORS
+20230418	10:51:13	779a63a8-07da-4a63-acf2-e4a5832cd512	Error: Not allowed by CORS
+20230418	10:51:16	46b55b5d-f4dd-4049-a7cc-1039829e3b01	Error: Not allowed by CORS
+20230418	10:57:56	a6a7f324-933a-4d63-a55c-1317a92e3f9f	Error: Not allowed by CORS
+20230418	10:58:01	82311e6c-7755-457d-bff7-c6708863623a	Error: Not allowed by CORS
+20230418	11:01:51	45508849-433f-45ff-82dc-54a8c2ae9a04	Error: Can't set headers after they are sent.
+20230418	11:05:15	960cb1ae-94c6-46ec-9e8f-6f1102c8f3a2	Error: Not allowed by CORS
+20230418	11:06:21	96ae74ab-711d-449e-b290-d81b61a79562	Error: Not allowed by CORS
+20230418	11:06:21	112e1217-e5da-407d-84a0-bd8d4b6a7942	Error: Not allowed by CORS
+20230418	13:40:04	8620ac9b-4a5c-4ca0-baef-f4bca12538a5	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\new-page.html'
+20230418	13:40:07	d119b278-f498-4760-a1b2-cd13aa040baa	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\new-page.html'
+20230418	13:40:11	8f64acb2-96a5-4bc6-878c-e1e0f25da73c	Error: ENOENT: no such file or directory, stat 'C:\Dev\node-full-course-for-beginners\08TUT\routes\views\index.html'
+20230418	14:27:35	9260f0cf-3597-4112-a54f-17925f5e4394	Error: Not allowed by CORS
+20230418	15:15:47	5149fedb-f25c-4928-80c4-e338ce832621	ReferenceError: whitelist is not defined
+20230418	15:42:36	cecc0dc0-6a6c-445b-be45-a0454f3ef166	SyntaxError: Unexpected token i in JSON at position 1
+20230418	16:24:16	bd255508-a9ab-479a-8dd9-dd24bcdee787	SyntaxError: Unexpected token o in JSON at position 1
+20230418	16:24:39	121bc86c-bc72-4e09-9c97-6ef7c12d600b	SyntaxError: Unexpected token o in JSON at position 1
+20230418	16:25:26	a2104c42-a823-4bc1-ada0-f72437b6bd79	SyntaxError: Unexpected token o in JSON at position 1
+20230419	09:09:40	1fdce987-916c-41c7-b06e-3ecce880af69	Error: Not allowed by CORS
+20230419	14:15:52	b4a78aa0-b515-4c45-9853-fdfee12e24ff	SyntaxError: Unexpected token e in JSON at position 0
+20230419	14:15:54	0daf736e-fe6c-497f-a273-b19b3473a47a	SyntaxError: Unexpected token e in JSON at position 0
+20230419	14:15:55	76a50d06-9967-424d-b4b5-170b6f6efb74	SyntaxError: Unexpected token e in JSON at position 0
+20230419	14:15:56	531a9bb4-3fc3-43da-829e-2baf4989593c	SyntaxError: Unexpected token e in JSON at position 0
+20230419	14:15:56	15fccdc2-3975-4730-8d0d-efd4d50febb0	SyntaxError: Unexpected token e in JSON at position 0
+20230420	12:43:49	4023f3f1-ea24-4c34-9fa5-0270dae7278e	Error: Not allowed by CORS
+20230420	12:43:59	9de2c708-e896-4fc5-a98a-2ed2e8ab81e4	Error: Not allowed by CORS
+20230420	15:55:38	cef42330-53a7-4303-9077-b66611c7fc2b	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:39	646bc6f8-3f07-4c66-8c51-2ed0c2b1a0e6	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:40	78e63cdc-097e-413d-ad03-3b0db61fa453	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:41	c5e07898-081f-4bbc-957e-9d52447fe1fe	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:45	1c68b616-0bfb-4633-8ebf-f7b613245733	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:45	99f7074c-3b06-4a72-ac55-2e35fafbf836	TypeError: authHeader?.startsWth is not a function
+20230420	15:55:45	e04f004d-de6e-4996-bffd-9c0df8e3cde0	TypeError: authHeader?.startsWth is not a function
+20230421	10:31:11	2a4278d9-9b82-4074-99bd-50404a02c94a	TypeError: rolesArray.includes is not a function
+20230421	15:15:08	352ccbe6-87f2-4259-9f62-d4eaeab51443	TypeError: rolesArray.includes is not a function
+20230421	15:15:08	ca8117b5-6fb8-4ab2-ab12-3eb68bd055a4	TypeError: rolesArray.includes is not a function
+20230421	15:15:13	35bd1ea4-4b76-4d3e-aec9-cf299eb6729f	TypeError: rolesArray.includes is not a function
